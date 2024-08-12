@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/spalshscreen"
+    tools:context=".SpashScreen"
+    android:gravity="center"
+    >
+
+    <ImageView
+        android:layout_width="@dimen/_180sdp"
+        android:layout_height="@dimen/_180sdp"
+        android:layout_gravity="center"
+        android:src="@drawable/white_cloud"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weather Matters \nwe 've got the details"
+        android:textStyle="bold"
+        android:textSize="@dimen/_25ssp"
+        android:textColor="#FFF"
+        android:fontFamily="@font/merriweathersans_medium"
+        android:gravity="center"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Made by"
+        android:textColor="#FFF"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wahid Malik"
+        android:textStyle="bold"
+        android:textSize="@dimen/_13ssp"
+        android:textColor="#FFF"
+        android:layout_gravity="center"
+        />
+
+
+</LinearLayout>
